@@ -6,8 +6,8 @@ clone the github project chat-service
 Run mvn clean install - create the jar file
 
 Instructions for running:
-Navigate to the target directory chat-service
-start mongodb - MongoDB on port 27017 on local host
+Navigate to the target directory under chat-service
+start mongodb -mongod
 java -jar *.jar
 
 
