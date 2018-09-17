@@ -1,13 +1,13 @@
 # chat-service
 Instructions for compiling:
-Install Maven 
+Install Maven - set the environment path variable to point to installation directory
 Install MongoDB - uses MongoDB to persist the data
 clone the github project chat-service
-Run mvn clean install - create the jar file
+Run mvn clean install - creates the jar file
 
 Instructions for running:
 Navigate to the target directory under chat-service
-start mongodb -mongod
+start mongodb as -mongod
 java -jar *.jar
 
 
@@ -19,7 +19,6 @@ Decisions:
 
 Limitations:
 1. It is basic Rest Services implementations with a basic storage solution
-2. 
 
 If i had more time i would implement all the spring boot features (Spring boot cloud features), additional batch job to mark all messages from active to expired after the expiration_date is met. User Session management, authentication, user management etc, will make it deployale in a Docker container etc.
 
